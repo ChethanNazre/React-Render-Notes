@@ -9,13 +9,17 @@ import { Parent1 } from './Components/optimization/Parent1';
 import { Child1 } from './Components/optimization/Child1';
 import { GrandParent } from './Components/GrandParent';
 import { Parent2 } from './Components/optimization/Parent2';
+import { Parent3 } from './Components/IncorrectOpt/Parent3';
 
 function App() {
   return (
     <div className="App">
+      
+      <Parent3/>
 
-      {/* <GrandParent/> */}
-      <Parent2/>
+      {/* <Parent2/> */}
+
+    {/* <GrandParent/> */}
 {/* 
     <Parent1><Child1/></Parent1> */}
 

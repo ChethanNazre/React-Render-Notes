@@ -10,12 +10,19 @@ import { Child1 } from './Components/optimization/Child1';
 import { GrandParent } from './Components/GrandParent';
 import { Parent2 } from './Components/optimization/Parent2';
 import { Parent3 } from './Components/IncorrectOpt/Parent3';
+import { Parent4 } from './Components/IncorrectOpt/Parent4';
+import { ContextParent } from './Components/Context/ContextParent';
+import { ChildA } from './Components/Context/ContextChild';
 
 function App() {
   return (
     <div className="App">
       
-      <Parent3/>
+      <ContextParent>
+        <ChildA/>
+      </ContextParent>
+
+      {/* <Parent4/> */}
 
       {/* <Parent2/> */}
 

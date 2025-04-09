@@ -7,13 +7,17 @@ import { ArrayUseState } from './Components/ImmutableState/ArrayUseState';
 import { Parent } from './Components/parentChild/ParentComp';
 import { Parent1 } from './Components/optimization/Parent1';
 import { Child1 } from './Components/optimization/Child1';
-
+import { GrandParent } from './Components/GrandParent';
+import { Parent2 } from './Components/optimization/Parent2';
 
 function App() {
   return (
     <div className="App">
 
-    <Parent1><Child1/></Parent1>
+      {/* <GrandParent/> */}
+      <Parent2/>
+{/* 
+    <Parent1><Child1/></Parent1> */}
 
       {/* <ObjectUseState/>
 
